@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "start": "yarn run parcel index.html",
-    "build": "yarn run parcel build index.html --out-dir docs"
+    "build": "yarn run parcel build index.html --out-dir docs --public-url /msgpack-visualizer/"
   },
   "dependencies": {
     "lz4js": "^0.2.0",

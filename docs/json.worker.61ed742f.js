@@ -126,4 +126,4 @@ var t=require("process");Object.defineProperty(exports,"__esModule",{value:!0}),
 },{"./_deps/vscode-json-languageservice/jsonLanguageService.js":"JFgR","./_deps/vscode-languageserver-types/main.js":"OWmG"}],"tweB":[function(require,module,exports) {
 "use strict";var e=t(require("../../editor/editor.worker.js")),r=require("./jsonWorker.js");function t(e){if(e&&e.__esModule)return e;var r={};if(null!=e)for(var t in e)if(Object.prototype.hasOwnProperty.call(e,t)){var o=Object.defineProperty&&Object.getOwnPropertyDescriptor?Object.getOwnPropertyDescriptor(e,t):{};o.get||o.set?Object.defineProperty(r,t,o):r[t]=e[t]}return r.default=e,r}self.onmessage=function(){e.initialize(function(e,t){return new r.JSONWorker(e,t)})};
 },{"../../editor/editor.worker.js":"DR9W","./jsonWorker.js":"dajT"}]},{},["tweB"], null)
-//# sourceMappingURL=/json.worker.71a25b63.map
+//# sourceMappingURL=/msgpack-visualizer/json.worker.71a25b63.map

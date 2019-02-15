@@ -89,4 +89,4 @@ var e,t=require("process"),r=arguments[3],n="/Users/ishizaki.taishi/Desktop/msgp
 },{"./lib/typescriptServices.js":"d81M","./lib/lib.js":"ssKd"}],"n1DF":[function(require,module,exports) {
 "use strict";var e=t(require("../../editor/editor.worker.js")),r=require("./tsWorker.js");function t(e){if(e&&e.__esModule)return e;var r={};if(null!=e)for(var t in e)if(Object.prototype.hasOwnProperty.call(e,t)){var i=Object.defineProperty&&Object.getOwnPropertyDescriptor?Object.getOwnPropertyDescriptor(e,t):{};i.get||i.set?Object.defineProperty(r,t,i):r[t]=e[t]}return r.default=e,r}self.onmessage=function(){e.initialize(function(e,t){return new r.TypeScriptWorker(e,t)})};
 },{"../../editor/editor.worker.js":"DR9W","./tsWorker.js":"w57r"}]},{},["n1DF"], null)
-//# sourceMappingURL=/ts.worker.dbf37d45.map
+//# sourceMappingURL=/msgpack-visualizer/ts.worker.dbf37d45.map

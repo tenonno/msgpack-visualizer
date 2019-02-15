@@ -139,4 +139,4 @@ var e;Object.defineProperty(exports,"__esModule",{value:!0}),exports.KeyChord=s,
 },{"./_deps/vscode-css-languageservice/cssLanguageService.js":"HlIX","./_deps/vscode-languageserver-types/main.js":"Ee3R"}],"lFrP":[function(require,module,exports) {
 "use strict";var e=t(require("../../editor/editor.worker.js")),r=require("./cssWorker.js");function t(e){if(e&&e.__esModule)return e;var r={};if(null!=e)for(var t in e)if(Object.prototype.hasOwnProperty.call(e,t)){var i=Object.defineProperty&&Object.getOwnPropertyDescriptor?Object.getOwnPropertyDescriptor(e,t):{};i.get||i.set?Object.defineProperty(r,t,i):r[t]=e[t]}return r.default=e,r}self.onmessage=function(){e.initialize(function(e,t){return new r.CSSWorker(e,t)})};
 },{"../../editor/editor.worker.js":"DR9W","./cssWorker.js":"Mk/j"}]},{},["lFrP"], null)
-//# sourceMappingURL=/css.worker.668601f5.map
+//# sourceMappingURL=/msgpack-visualizer/css.worker.668601f5.map

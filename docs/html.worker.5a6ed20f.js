@@ -128,4 +128,4 @@ var t=require("process");Object.defineProperty(exports,"__esModule",{value:!0}),
 },{"./_deps/vscode-html-languageservice/htmlLanguageService.js":"bHSt","./_deps/vscode-languageserver-types/main.js":"eZFU"}],"41GA":[function(require,module,exports) {
 "use strict";var e=t(require("../../editor/editor.worker.js")),r=require("./htmlWorker.js");function t(e){if(e&&e.__esModule)return e;var r={};if(null!=e)for(var t in e)if(Object.prototype.hasOwnProperty.call(e,t)){var i=Object.defineProperty&&Object.getOwnPropertyDescriptor?Object.getOwnPropertyDescriptor(e,t):{};i.get||i.set?Object.defineProperty(r,t,i):r[t]=e[t]}return r.default=e,r}self.onmessage=function(){e.initialize(function(e,t){return new r.HTMLWorker(e,t)})};
 },{"../../editor/editor.worker.js":"DR9W","./htmlWorker.js":"ny8E"}]},{},["41GA"], null)
-//# sourceMappingURL=/html.worker.8e3c9745.map
+//# sourceMappingURL=/msgpack-visualizer/html.worker.8e3c9745.map
